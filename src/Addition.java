@@ -9,7 +9,7 @@ public class Addition {
 		int c;
 
 
-		// this is cooment
+		// this is comment
 		
 		c = a+b;
 		
