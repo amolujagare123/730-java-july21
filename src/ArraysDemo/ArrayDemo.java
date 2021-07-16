@@ -1,3 +1,4 @@
+package ArraysDemo;
 
 public class ArrayDemo {
 
@@ -10,8 +11,8 @@ public class ArrayDemo {
 		a[0] = 13;
 		a[1] = 45;
 		a[2] = 6;
-		a[3] = 9;
-		a[4] = 8;
+		//a[3] = 9;
+		//a[4] = 8;
 				
 		//System.out.println(a);
 		
