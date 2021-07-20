@@ -7,7 +7,7 @@ public class SplitDemo {
 
 		String str = "This is a Java class";
 		
-		String[] stArr = str.split(" ");
+		String[] stArr = str.split("a");
 		
 		for(int i=0;i<stArr.length;i++)
 			System.out.println(stArr[i]);
