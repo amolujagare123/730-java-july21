@@ -2,7 +2,7 @@ package ClassConstructors.pack2;
 
 import ClassConstructors.pack1.Java1;
 
-class Java3 {
+class Java3 extends Java1{
 	
 	int a3;
 	double d3;
@@ -29,5 +29,9 @@ class Java3 {
 		ob.str1="amol";
 		ob.display1();
 		
+		
+		Java3 ob1 = new Java3();
+		ob1.c1 ='h';
+		ob1.str1 = "abcd";
     }
 }

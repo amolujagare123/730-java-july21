@@ -3,9 +3,9 @@ package ClassConstructors.pack1;
 public class Java1 {
 	
 	public int a1;
-	private double d1;
-	char c1;
-	String str1;
+	protected double d1;
+	protected char c1;
+	protected String str1;
 	
 	void display1()
 	{
@@ -15,7 +15,10 @@ public class Java1 {
 		System.out.println("str="+str1);
 	}
 		
-	
+	public Java1()
+	{
+		
+	}
 
 	public static void main(String[] args) {
 		
