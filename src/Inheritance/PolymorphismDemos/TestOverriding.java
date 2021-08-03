@@ -1,9 +1,9 @@
 package Inheritance.PolymorphismDemos;
 
-class Parent
+/*final*/ class Parent
 {
 	
-	void myMethod()
+	/* final */ void myMethod()
 	{
 		System.out.println("Parent method");
 	}

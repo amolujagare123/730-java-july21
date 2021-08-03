@@ -1,13 +1,13 @@
 package ClassConstructors.pack1;
 
-class Java2 {
+public class Java2 {
 	
-	int a2;
-	double d2;
-	char c2;
-	String str2;
+	public int a2;
+	public double d2;
+	public char c2;
+	public String str2;
 	
-	void display2()
+	public void display2()
 	{
 		System.out.println("a="+a2);
 		System.out.println("d="+d2);
