@@ -1,5 +1,7 @@
 package ClassConstructors.pack1;
 
+import static FinalAndStatic.StaticMethodDemo.method2;
+
 public class Java1 {
 	
 	public int a1;
@@ -30,5 +32,7 @@ public class Java1 {
 		ob.str1="amol";
 		ob.display1();
 		
+		method2();
+	
     }
 }
