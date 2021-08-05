@@ -14,7 +14,7 @@ public class StaticMethodDemo {
 		myMethod(); // non static members are allowed
 	}
 	
-	static void method2() // static method
+	public static void method2() // static method
 	{
 		System.out.println("inside mymethod2");
 		
@@ -31,6 +31,8 @@ public class StaticMethodDemo {
 		ob.method2();
 
 		StaticMethodDemo.method2();
+		
+		method2();
 	}
 
 }
