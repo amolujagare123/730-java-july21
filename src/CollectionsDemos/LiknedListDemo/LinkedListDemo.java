@@ -9,14 +9,16 @@ public class LinkedListDemo {
 		
 		LinkedList<String> ll = new LinkedList<>();
 
-		ll.add("Anjumol");
-		ll.add("Dhanajay");
-		ll.add("hari");
-		ll.add("Keerthana");
+		ll.add("Anjumol");//0
+		ll.add("Dhanajay");//1
+		ll.add("hari");//2
+		ll.add("Keerthana");//3
 		ll.add("Monica");
 		ll.add("Nadim");
 		ll.add("Nikhil");
 		ll.add("Nikhil");
+		
+		ll.get(3);
 		
 		System.out.println(ll);
 		
